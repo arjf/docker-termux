@@ -2,9 +2,9 @@
 
 
 # package setup
-pkg install root-repo core-utils -y
+pkg install root-repo core-utils tsu sudo -y
 pkg update
-pkg install docker
+pkg install docker -y
 
 
 # docker setup
