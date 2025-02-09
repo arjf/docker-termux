@@ -1,0 +1,13 @@
+{
+    "exec-opts": [
+    "native.cgroupdriver=cgroupfs",
+    "native.cgroupparent=/data/local/cgroup2"
+    ],
+    "data-root": "/data/data/com.termux/files/usr/lib/docker",
+    "exec-root": "/data/data/com.termux/files/usr/var/run/docker",
+    "pidfile": "/data/data/com.termux/files/usr/var/run/docker.pid",
+    "hosts": [
+        "unix:///data/data/com.termux/files/usr/var/run/docker.sock"
+    ],
+    "storage-driver": "overlay2"
+}
